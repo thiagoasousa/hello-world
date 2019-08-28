@@ -1,0 +1,101 @@
+
+
+/*SEÇÕES*/
+
+header{ min-height: 80px;}
+
+section#news{ min-height: 420px;}
+
+section#about{ padding: 50px 0;}
+
+section#services article i{ font-size: 50px; margin: 10px 0;}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul.menu.horizontal li {
+    border-right: 1px solid #c3c3c3;
+    padding-right: 5px;
+}
+
+ul.menu.horizontal li:last-child{
+    border: none;
+}
+
+section#pirulito-doce{
+    padding: 80px;
+  
+}
+
+/*
+ESTRUTURA DE CORES
+*/
+.btn{
+    padding:10px 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.color-blue{
+    color: rgb(24, 26, 180)
+}
+
+.bg-yellow{
+    background: rgb(145, 112, 4);
+    color: #fff;
+}
+
+.btn.bg-black{
+    background: #fff;
+    color: rgb(13, 13, 14);
+    border: 1px solid rgb(19, 20, 20);
+}
+
+.bg-gray{
+    background: rgba(250, 250, 250,1);
+    color: rgb(51, 51, 51);
+}
+
+h1#logo a {
+    background: url("../img/my-events-logo.png");
+    width: 191px;
+    height: 126px;
+    display: block;
+}
+
+
+.btn.bg-blue:hover{
+    background: #fff;
+    color: #2BB9D9;
+    border: 1px solid #2BB9D9;
+}
+
+.bg-blue{
+    background: #2BB9D9;
+    color: #fff;
+}
+
+.visivel{
+    border: 2px solid red;
+}
+
+.face{
+    font-size: 500%;
+
+}
+
+.face:hover{
+    text-decoration: none;
+}
+
+.orca{
+    background: url("../img/tip.png");
+    width: 900px;
+    height: 650px;
+    display: block;
+}
